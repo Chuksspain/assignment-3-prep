@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(68, 120, 199);
+}
+
+section {
+    background-color: white;
+    padding: 30px;
+    width: 350px;
+    display: block;
+    margin: 100px auto;
+    border-radius: 20px;
+    padding-bottom: 1px;
+}
+
+form {
+    text-align: center;
+    border-radius: 15px;
+    border-width: 3px;
+
+}
+
+form>* {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+#email {
+    border-radius: 15px;
+    border-width: none;
+    background-color: lightgray;
+    position: relative;
+    font-size: 13px;
+    height: 35px;
+}
+
+#password {
+    border-radius: 15px;
+    border-width: none;
+    background-color: lightgray;
+    position: relative;
+    font-size: 13px;
+    height: 35px;
+}
+
+button {
+    border-radius: 15px;
+    border-width: none;
+    background-color: rgb(6, 146, 240);
+    position: relative;
+    font-size: 13px;
+    height: 35px;
+    color: white;
+
+}
+
+img {
+    display: inline-block;
+    width: 40px;
+    padding-right: 10px;
+    position: relative;
+    margin-top: 30px;
+
+
+}
